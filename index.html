@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8" />
+  <meta name="author" content="">
+  <meta name="keywords" content="" />
+  <meta name="description" content="">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="icon" type="image/png" href="lib/images/logo.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Resgister Now</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" media="screen" href="lib/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="lib/css/animation.css">
+  <!-- <link rel="stylesheet" href="lib/css/slider.css"> -->
+  <link rel="stylesheet" href="lib/css/application.css">
+  <link rel="stylesheet" href="lib/css/custom.css">
+</head>
+
+<body>
+  <main class="section-main">
+    <div class="container">
+      <div class="row">
+        <div class="header-title m-auto">
+          <h2 class="text-center">Modal Signup Form</h2>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="btn-show-popup  m-auto">
+          <button onclick="document.getElementById('form-popup').style.display='block';" id="signup"
+            class="singup-form btn btn-primary">Show Form</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div id="form-popup" class="m-auto section-form" style="display: block;">
+          <span onclick="document.getElementById('form-popup').style.display='none';" class="close"
+            title="Close Modal">&times;</span>
+          <form action="" class="modal-content m-auto">
+            <div class="card custom-card">
+              <div class="card-header text-center card-header-style">
+                Signup Account Now
+              </div>
+              <div class=" form card-body card-body-style">
+
+                <div class="form-group">
+                  <label class="email-title" for="email"><b>Email:</b></label><br>
+                  <input id="emailInput" class="email-type" type="text" placeholder="type your email..." name="email"
+                    required>
+                  <p id="err-email"></p>
+                </div>
+
+                <div class="form-group">
+                  <label class="password-title" for="password"><b>Password</b></label><br>
+                  <input class="password-type" type="password" placeholder="type your password..." name="password"
+                    required>
+                  <p id="err-password"></p>
+                </div>
+
+                <div class="form-group">
+                  <label class="psw-repeat-title" for="password-repeat"><b>Type repeat passsword</b></label><br>
+                  <input class="psw-repeat-type" type="password" placeholder="type your password again..."
+                    name="password-repeat" required>
+                  <p id="err-psw-repeat"></p>
+                </div>
+
+                <div class="form-group form-check">
+                  <input id="my-input" class="form-check-input" type="checkbox" name="" value="true">
+                  <label for="my-input" class="form-check-label">Save account</label>
+                </div>
+
+                <p>I agree with <a href="#">the terms</a></p>
+
+                <div class="container form-group">
+                  <div class="row">
+                    <div class="col-6 col-lg-6"><button id="btn-signIn" class="btn btn-success btn-block btn-style"
+                        type="submit">Sign up</button></div>
+
+                    <div class="col-6 col-lg-6"><button id="btn-cancel" class="btn btn-danger btn-block btn-style"
+                        type="submit">Cancel</button></div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+  <!-- script -->
+  <script src="lib/js/jquery-3.3.1.min.js"></script>
+  <script src="lib/js/bootstrap.min.js"></script>
+  <!-- <script type="text/javascript" src="./js/wow.js"></script> -->
+  <script type="text/javascript" src="lib/js/application.js"></script>
+  </script>
+</body>
+
+</html>

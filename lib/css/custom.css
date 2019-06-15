@@ -1,0 +1,28 @@
+.modal-content {
+  width: 800px;
+}
+.form-group .email-type,
+.form-group .password-type,
+.form-group .psw-repeat-type {
+  border: none;
+  background: #e2e2e2;
+  padding: 10px 10px;
+  width: 100%;
+}
+.form-group .err-email,
+.form-group .err-password,
+.form-group .err-psw-repeat,
+.form-group p {
+  color: red;
+  line-height: 2;
+  margin: 0;
+  padding: 0;
+}
+
+.section-form {
+  height: 100vh;
+  width: 100vw;
+  background: lightblue;
+}
+
+/*# sourceMappingURL=custom.css.map */

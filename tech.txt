@@ -1,0 +1,13 @@
+- Font: Font Awesome 5
+- Use SCSS
+- FE fw: Bootstrap 4
+- Slider: slick js
+
+========== CSS FILE ==========
+- title: use class "TITLE"
+- use css3 & html5
+- font-family: Rubik
+- title use H1-6 tag: font-weight: 600
+
+========== DELOY ==========
+- heroku sync from source's github

@@ -1,0 +1,91 @@
+/* public */
+
+* {
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: Rubik-Black;
+	src: url(../fonts/Rubik/Rubik-Black.ttf);
+}
+
+@font-face {
+	font-family: Rubik-BlackItalic;
+	src: url(../fonts/Rubik/Rubik-BlackItalic.ttf);
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Rubik-Bold;
+	src: url(../fonts/Rubik/Rubik-Bold.ttf);
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: Rubik-BoldItalic;
+	src: url(../fonts/Rubik/Rubik-BoldItalic.ttf);
+	font-style: italic;
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: Rubik-Italic;
+	src: url(../fonts/Rubik/Rubik-Italic.ttf);
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Rubik-Light;
+	src: url(../fonts/Rubik/Rubik-Light.ttf);
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: Rubik-LightItalic;
+	src: url(../fonts/Rubik/Rubik-LightItalic.ttf);
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Rubik-Medium;
+	font-weight: 500;
+	src: url(../fonts/Rubik/Rubik-Medium.ttf);
+}
+
+@font-face {
+	font-family: Rubik-MediumItalic;
+	src: url(../fonts/Rubik/Rubik-MediumItalic.ttf);
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Rubik-Regular;
+	src: url(../fonts/Rubik/Rubik-Regular.ttf);
+}
+
+html, body {
+	color: #fff !important;
+	font-family: Rubik-Regular;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.4;
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+	background: #34495e;
+}
+.card{
+	border: none;
+}
+.section-main{
+	margin-top: 200px;
+}
+.card-header-style{
+	background: #2c3e50;
+	color: #fff;	
+}
+.card-body-style{
+	color: #2c3e50;
+}
