@@ -130,14 +130,30 @@
           <div class="container nav-header">
             <div class="row">
               <nav class="navbar navbar-expand-lg custom-nav ">
-                <!-- btn show hide -->
+                <div class="search_menu">
+                  <div class="search_inner">
+                    <i class="fa fa-search"></i>
+                    <div class="search-box">
+                      <div class="header_search search_form">
+                        <form class="input-group search-bar search_form" action="/search" method="get" role="search">
+                          <input type="search" name="query" value="" placeholder="Tìm kiếm dịch vụ... "
+                            class="input-group-field st-default-search-input search-text" autocomplete="off">
+                          <span class="input-group-btn">
+                            <button class="btn icon-fallback-text">
+                              <i class="fa fa-search"></i>
+                            </button>
+                          </span>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
-                  data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                  data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true"
                   aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class=" collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
                       <a class="nav-link" href="#">Trang chủ </a>
@@ -177,31 +193,9 @@
                       <a class="nav-link " href="#">Liên hệ</a>
                     </li>
                     <li class="nav-item">
-                      <div class="search_menu">
-                        <div class="search_inner">
-                          <i class="fa fa-search"></i>
-                          <div class="search-box">
-                            <div class="header_search search_form">
-                              <form class="input-group search-bar search_form" action="/search" method="get"
-                                role="search">
-                                <input type="search" name="query" value="" placeholder="Tìm kiếm dịch vụ... "
-                                  class="input-group-field st-default-search-input search-text" autocomplete="off">
-                                <span class="input-group-btn">
-                                  <button class="btn icon-fallback-text">
-                                    <i class="fa fa-search"></i>
-                                  </button>
-                                </span>
-                              </form>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+
                     </li>
                   </ul>
-
-
-
-
                 </div>
               </nav>
             </div>
@@ -1451,6 +1445,7 @@
     <a href="#" id="back-to-top" class="backtop back-to-top" title="Lên đầu trang">
       <i class="fa fa-arrow-up"></i>
     </a>
+
   </footer>
   <!-- script -->
   <script src="lib/js/jquery-3.3.1.min.js"></script>

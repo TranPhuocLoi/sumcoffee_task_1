@@ -1863,5 +1863,18 @@ body {
     font-size: 26px;
   }
 }
+@media only screen and (max-width: 768px) {
+  .nav-header .custom-nav {
+    height: auto;
+  }
+
+  .bg-navbar {
+    height: auto;
+  }
+
+  .navbar-nav, .nav-item, .nav-item > a {
+    height: auto;
+  }
+}
 
 /*# sourceMappingURL=home-page.css.map */
