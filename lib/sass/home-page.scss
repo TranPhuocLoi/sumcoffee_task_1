@@ -1992,6 +1992,10 @@ body {
 }
 
 @media only screen and (max-width: 1024px) {
+  .modal_dichvu {
+    top: 50%;
+    transform: translate(-50%, -50%) !important;
+  }
   .add-padding-0 {
     padding: 0;
   }
@@ -2257,6 +2261,13 @@ body {
 }
 
 @media only screen and (max-width: 425px) {
+  .section-proceduct .wrapper-proceduct .wrapper-title-position .title-module-main h2 {
+    font-size: 15px !important;
+  }
+
+  .navbar-toggler {
+    padding: 4px !important;
+  }
   .header-main .header-items .logo {
     line-height: 60px;
   }
@@ -2315,7 +2326,7 @@ body {
   .footer .top-footer h4:after {
     content: "";
   }
-  
+
   .wraplock {
     margin-top: 60px;
   }
@@ -2335,5 +2346,48 @@ body {
 
   .section-introduce {
     background-image: none;
+  }
+
+  .modal_dichvu {
+    width: 350px;
+    max-height: 500px;
+  }
+
+  input[type="number"],
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="tel"] {
+    margin: 0 0 6px;
+  }
+
+  .modal_dichvu .wrap_modal_dichvu .wrap_inner_dichvu .wrap_fulldichvu form .dates:before {
+    content: "";
+  }
+  textarea {
+    max-height: 48px;
+  }
+  .modal_dichvu .wrap_modal_dichvu .wrap_inner_dichvu .wrap_title {
+    padding: 0;
+  }
+  .modal_dichvu .wrap_modal_dichvu .wrap_inner_dichvu .title-module-main h2 {
+    font-size: 20px !important;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .modal_dichvu {
+    width: 300px;
+    max-height: 525px;
+  }
+
+  .section-proceduct .wrapper-proceduct .wrapper-title-position .title-module-main h2 {
+   padding-top: 11px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .modal_dichvu {
+    width: 260px;
+    max-height: 525px;
   }
 }
