@@ -2140,6 +2140,23 @@ body {
   .wraplock {
     margin-top: 60px;
   }
+
+  .title-introduce h2 {
+    font-size: 24px !important;
+  }
+
+  .title-module-main h2 {
+    font-size: 24px !important;
+  }
+
+  .logo-footer,
+.large {
+    text-align: center !important;
+  }
+
+  .section-introduce {
+    background-image: none;
+  }
 }
 
 /*# sourceMappingURL=home-page.css.map */

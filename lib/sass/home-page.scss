@@ -2274,45 +2274,66 @@ body {
     left: 10px;
   }
 
-  .sections{
+  .sections {
     margin-top: 0;
   }
 
   .owl-carousel .owl-nav .owl-prev {
     left: 18px;
-}
-.owl-carousel .owl-nav .owl-next {
-  right: 18px;
-}
+  }
+  .owl-carousel .owl-nav .owl-next {
+    right: 18px;
+  }
 
-.wrapper-title-position {
-  width: 100%;
-}
+  .wrapper-title-position {
+    width: 100%;
+  }
 
-.section-why-choose .wrapper-why-choose {
-  padding: 60px 20px 20px 20px;
-}
-.section-review .owl-review .item {
- padding: 0;
-}
+  .section-why-choose .wrapper-why-choose {
+    padding: 60px 20px 20px 20px;
+  }
 
-.section-subscribe .wrap_.wrap_right .form_km form {
-  display: flex;
-  flex-direction: column;
-}
-.section-subscribe .wrap_.wrap_right .form_km form input{
-  width: 100%;
-}
-.section-subscribe .wrap_.wrap_right .form_km form .button_subscribe{
-  margin-top: 20px;
-  width: 100%;
-  margin-left: 0;
-}
+  .section-review .owl-review .item {
+    padding: 0;
+  }
 
-.footer .top-footer h4:after {
-content: '';  
-}
-.wraplock {
-  margin-top: 60px;
-}
+  .section-subscribe .wrap_.wrap_right .form_km form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-subscribe .wrap_.wrap_right .form_km form input {
+    width: 100%;
+  }
+
+  .section-subscribe .wrap_.wrap_right .form_km form .button_subscribe {
+    margin-top: 20px;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .footer .top-footer h4:after {
+    content: "";
+  }
+  
+  .wraplock {
+    margin-top: 60px;
+  }
+
+  .title-introduce h2 {
+    font-size: 24px !important;
+  }
+
+  .title-module-main h2 {
+    font-size: 24px !important;
+  }
+
+  .logo-footer,
+  .large {
+    text-align: center !important;
+  }
+
+  .section-introduce {
+    background-image: none;
+  }
 }
